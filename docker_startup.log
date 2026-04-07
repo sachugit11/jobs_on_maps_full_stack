@@ -1,0 +1,110 @@
+nohup: ignoring input
+Compose now can delegate build to bake for better performances
+Just set COMPOSE_BAKE=true
+#0 building with "default" instance using docker driver
+
+#1 [backend internal] load build definition from Dockerfile
+#1 transferring dockerfile: 390B done
+#1 DONE 0.0s
+
+#2 [backend internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.4s
+
+#3 [backend internal] load .dockerignore
+#3 transferring context: 142B done
+#3 DONE 0.0s
+
+#4 [backend 1/6] FROM docker.io/library/python:3.12-slim@sha256:5072b08ad74609c5329ab4085a96dfa873de565fb4751a4cfcd7dcc427661df0
+#4 DONE 0.0s
+
+#5 [backend internal] load build context
+#5 transferring context: 1.65kB done
+#5 DONE 0.0s
+
+#6 [backend 2/6] WORKDIR /app
+#6 CACHED
+
+#7 [backend 3/6] COPY requirements.txt .
+#7 CACHED
+
+#8 [backend 4/6] RUN pip install --no-cache-dir -r requirements.txt
+#8 CACHED
+
+#9 [backend 5/6] COPY . .
+#9 CACHED
+
+#10 [backend 6/6] RUN python manage.py collectstatic --noinput 2>/dev/null || true
+#10 CACHED
+
+#11 [backend] exporting to image
+#11 exporting layers done
+#11 writing image sha256:321a68980518379e34bcf18047e95b3d7673afabd6eab51043f1fe3c5a111aa4 done
+#11 naming to docker.io/library/jobs_on_map-backend done
+#11 DONE 0.0s
+
+#12 [backend] resolving provenance for metadata file
+#12 DONE 0.0s
+
+#13 [frontend internal] load build definition from Dockerfile
+#13 transferring dockerfile: 155B done
+#13 DONE 0.0s
+
+#14 [frontend internal] load metadata for docker.io/library/node:20-alpine
+#14 DONE 1.3s
+
+#15 [frontend internal] load .dockerignore
+#15 transferring context: 121B done
+#15 DONE 0.0s
+
+#16 [frontend 1/5] FROM docker.io/library/node:20-alpine@sha256:f598378b5240225e6beab68fa9f356db1fb8efe55173e6d4d8153113bb8f333c
+#16 DONE 0.0s
+
+#17 [frontend 2/5] WORKDIR /app
+#17 CACHED
+
+#18 [frontend internal] load build context
+#18 transferring context: 341.17kB done
+#18 DONE 0.0s
+
+#19 [frontend 3/5] COPY package*.json ./
+#19 DONE 0.0s
+
+#20 [frontend 4/5] RUN npm ci
+#20 40.13 
+#20 40.13 added 426 packages, and audited 427 packages in 40s
+#20 40.13 
+#20 40.13 159 packages are looking for funding
+#20 40.13   run `npm fund` for details
+#20 40.13 
+#20 40.13 found 0 vulnerabilities
+#20 40.13 npm notice
+#20 40.13 npm notice New major version of npm available! 10.8.2 -> 11.12.1
+#20 40.13 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1
+#20 40.13 npm notice To update run: npm install -g npm@11.12.1
+#20 40.13 npm notice
+#20 DONE 40.2s
+
+#21 [frontend 5/5] COPY . .
+#21 DONE 0.0s
+
+#22 [frontend] exporting to image
+#22 exporting layers
+#22 exporting layers 5.9s done
+#22 writing image sha256:9f0f21b9d0298782134ec84c93fcfb52c6638713035e9a6eb786700ec55eb04d done
+#22 naming to docker.io/library/jobs_on_map-frontend done
+#22 DONE 5.9s
+
+#23 [frontend] resolving provenance for metadata file
+#23 DONE 0.0s
+ backend  Built
+ frontend  Built
+ Network jobs_on_map_default  Creating
+ Network jobs_on_map_default  Created
+ Container jobs_on_map-backend-1  Creating
+ Container jobs_on_map-backend-1  Created
+ Container jobs_on_map-frontend-1  Creating
+ Container jobs_on_map-frontend-1  Created
+ Container jobs_on_map-backend-1  Starting
+ Container jobs_on_map-backend-1  Started
+ Container jobs_on_map-frontend-1  Starting
+ Container jobs_on_map-frontend-1  Started

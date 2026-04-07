@@ -14,3 +14,14 @@ Watching for file changes with StatReloader
 [07/Apr/2026 23:55:59] "GET /api/companies/?role=Backend&city=Bengaluru HTTP/1.1" 200 1539
 [07/Apr/2026 23:57:38] "GET /api/roles/ HTTP/1.1" 200 75
 [07/Apr/2026 23:57:38] "GET /api/companies/?city=Bengaluru HTTP/1.1" 200 7782
+[08/Apr/2026 00:02:01] "GET /api/roles/ HTTP/1.1" 200 75
+[08/Apr/2026 00:02:01] "GET /api/companies/?city=Bengaluru HTTP/1.1" 200 7782
+[08/Apr/2026 00:02:04] "GET /api/companies/?role=Backend&city=Bengaluru HTTP/1.1" 200 1539
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 07, 2026 - 23:49:08
+Django version 5.1.4, using settings 'config.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
