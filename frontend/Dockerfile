@@ -2,14 +2,14 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 
-# Ensure clean dependency install
+# Dependency resolution
 COPY package.json package-lock.json ./
 RUN npm ci
 
-# Copy full application context
+# Copy source code
 COPY . .
 
-# Build Next.js 16 (requires Node 20+)
+# Production build (requires Node 20+)
 ENV NEXT_TELEMETRY_DISABLED 1
 RUN npm run build
 
@@ -24,8 +24,10 @@ ENV NEXT_TELEMETRY_DISABLED 1
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
-# Copy essential files for standalone runtime
+# COPY public folder (essential for static assets)
 COPY --from=builder /app/public ./public
+
+# COPY the standalone server. Note the hierarchy!
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
@@ -35,5 +37,5 @@ EXPOSE 3000
 ENV PORT 3000
 ENV HOSTNAME "0.0.0.0"
 
-# Main entrypoint for standalone Next.js
+# server.js is the entrypoint for standalone Next.js
 CMD ["node", "server.js"]
