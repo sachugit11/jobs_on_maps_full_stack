@@ -1,0 +1,197 @@
+# 📄 Product Requirements Document (PRD)
+
+## 🧭 Product Name
+
+**GeoJobs – Map-based Job Discovery Platform (MVP)**
+
+---
+
+## 🎯 Objective
+
+Allow users to discover jobs visually on a **map**, using a **lightweight MVP setup (CSV-based data)** with ability to scale to DB later.
+
+---
+
+## 👤 Target Users
+
+* Job seekers (freshers + experienced)
+* Users targeting specific areas (e.g., Whitefield, ORR)
+* Domain-focused candidates
+
+---
+
+## 🚀 Core Features
+
+### 1. Location-Based Job Discovery
+
+* User selects:
+
+  * Location (dropdown will only contain Bangalore as of now)
+  * Job role/category (should be pre-defined derived from datasource)
+* Map displays **company pins**
+
+---
+
+### 2. Company Map Pins
+
+* Each company shown as:
+
+  * 📍 Marker with **logo (18×18 static/random icon)**
+* Cluster markers when zoomed out
+
+---
+
+### 3. Job Listings per Company
+
+* On clicking a pin:
+
+  * Show list:
+
+    * Job Title
+    * Posted Date
+    * Apply Link
+* Redirect externally
+
+---
+
+### 4. Role-Based Filtering
+
+* Predefined job categories (50 roles)
+* Multi-select filter
+* Search input
+
+---
+
+### 5. Logo Handling (MVP)
+
+* No external API
+* Use:
+
+  * Static logo set OR
+  * Random icon per company
+* Mapping:
+
+  * `company_name → logo_file`
+
+---
+
+## 🗂 Data Source (MVP)
+
+### Primary Source: CSV
+
+Structure:
+
+```csv
+Company Name,Location,Job Title,Posted On,Apply Link
+```
+
+Additional derived fields:
+
+* latitude (pre-mapped)
+* longitude (pre-mapped)
+* role_category (tagged)
+
+---
+
+## 🔄 Data Layer Strategy
+
+### Config-Based Source Switching
+
+```json
+{
+  "DATA_SOURCE": "csv" // or "postgres"
+}
+```
+
+---
+
+### CSV Mode (MVP)
+
+* Load CSV into memory (or cache)
+* Parse → group by company
+* Fast, no infra required
+
+---
+
+### Postgres Mode (Future)
+
+* Replace CSV loader with DB queries
+* Same response format (adapter pattern)
+
+---
+
+## 🧱 Data Model (Unified Interface)
+
+### Company
+
+* id
+* name
+* latitude
+* longitude
+* logo
+
+### Job
+
+* id
+* company_id
+* title
+* role_category
+* posted_on
+* apply_link
+
+---
+
+## 🖥️ Tech Stack (MVP)
+
+### Frontend
+
+* React
+* Leaflet / Google Maps
+* Tailwind
+
+### Backend
+
+* Node.js / FastAPI
+* CSV parser
+
+---
+
+## ⚡ MVP Scope (2 Weeks)
+
+* Load jobs from CSV
+* Map with company pins
+* Click → job list popup
+* Role filtering
+* Static/random logos
+* Config switch (CSV → DB ready)
+
+---
+
+## 📈 Success Metrics
+
+* Job clicks
+* Map interactions
+* Session duration
+
+---
+
+## ⚠️ Constraints
+
+* CSV is static (no real-time updates)
+* Manual geo-tagging required
+* Logo accuracy limited (random/static)
+
+---
+
+## 🔮 Future Enhancements
+
+* Switch to Postgres
+* Automated job ingestion pipeline
+* Real company logos (optional later)
+* AI-based recommendations
+
+---
+
+## ✅ Summary
+
+A **lean MVP** using **CSV + static logos + map UI**, designed with a **clean abstraction layer** to seamlessly migrate to Postgres and live data pipelines later.

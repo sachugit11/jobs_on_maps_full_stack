@@ -1,0 +1,202 @@
+[
+    {
+        "company": "Google",
+        "city": "Bengaluru",
+        "role": "Software Engineer III",
+        "posted": "1 week ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-engineer-google",
+        "address": "No. 3, RMZ Infinity, Old Madras Road, Bangalore 560016",
+        "lat": 12.9934,
+        "lon": 77.6611
+    },
+    {
+        "company": "Amazon",
+        "city": "Bengaluru",
+        "role": "SDE I",
+        "posted": "6 days ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/sde-amazon",
+        "address": "Brigade Gateway, 8th Floor, 26/1 Dr. Rajkumar Road, Bengaluru 560055",
+        "lat": 13.0127,
+        "lon": 77.5553
+    },
+    {
+        "company": "Microsoft",
+        "city": "Bengaluru",
+        "role": "Software Engineer",
+        "posted": "5 days ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-engineer-microsoft",
+        "address": "No.33, Marathahalli, Sarjapur Outer Ring Road, Bellandur, Bangalore 560103",
+        "lat": 12.93,
+        "lon": 77.68
+    },
+    {
+        "company": "Cisco",
+        "city": "Bengaluru",
+        "role": "Software Engineer",
+        "posted": "1 week ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-engineer-cisco",
+        "address": "SEZ UNIT, CESSNA BUSINESS PARK, KADUBEESANAHALLI, Bangalore 560103",
+        "lat": 12.94,
+        "lon": 77.69
+    },
+    {
+        "company": "Flipkart",
+        "city": "Bengaluru",
+        "role": "Backend Engineer",
+        "posted": "2 weeks ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/backend-flipkart",
+        "address": "Vaishnavi Summit, Ground Floor, 7th Main, 80 Feet Road, Koramangala, Bangalore 560034",
+        "lat": 12.9352,
+        "lon": 77.6245
+    },
+    {
+        "company": "Intuit",
+        "city": "Bengaluru",
+        "role": "Software Engineer 1",
+        "posted": "2 weeks ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-engineer-intuit",
+        "address": "EcoSpace, Pritech Rd, Adarsh Palm Retreat, Bellandur, Bengaluru 560103",
+        "lat": 12.93,
+        "lon": 77.68
+    },
+    {
+        "company": "IBM",
+        "city": "Bengaluru",
+        "role": "Application Developer",
+        "posted": "4 days ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/application-developer-ibm",
+        "address": "NO.12, SUBRAMANYA ARCADE, BANNERGHATTA MAIN ROAD, Bangalore 560029",
+        "lat": 12.92,
+        "lon": 77.6
+    },
+    {
+        "company": "Oracle",
+        "city": "Bengaluru",
+        "role": "Software Developer",
+        "posted": "1 week ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-developer-oracle",
+        "address": "Oracle Tech Hub Block A, Sarjapur Marathalli Ring Road, Kadubeesanahalli, Bengaluru 560103",
+        "lat": 12.94,
+        "lon": 77.69
+    },
+    {
+        "company": "SAP",
+        "city": "Bengaluru",
+        "role": "Backend Developer",
+        "posted": "1 week ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/backend-sap",
+        "address": "6th Floor, RMZ Ecoworld, 8A Campus, Sarjapur-Marathahalli Outer Ring Road, Bengaluru 560103",
+        "lat": 12.935,
+        "lon": 77.685
+    },
+    {
+        "company": "PayPal",
+        "city": "Bengaluru",
+        "role": "Software Engineer",
+        "posted": "2 weeks ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-paypal",
+        "address": "Building-1, RGA Techpark 1, Sarjapur - Marathahalli Rd, Bengaluru 560035",
+        "lat": 12.915,
+        "lon": 77.67
+    },
+    {
+        "company": "Apple",
+        "city": "Bengaluru",
+        "role": "Frontend Engineer",
+        "posted": "1 week ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/frontend-apple",
+        "address": "19 Floor, Concorde Tower C, UB City, Bangalore 560001",
+        "lat": 12.9717,
+        "lon": 77.5958
+    },
+    {
+        "company": "Adobe",
+        "city": "Bengaluru",
+        "role": "Software Engineer",
+        "posted": "3 days ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-adobe",
+        "address": "Adobe Tower, Prestige Platina Tech Park, Marathahalli Sarjapur Outer Ring Road, Bangalore 560103",
+        "lat": 12.94,
+        "lon": 77.69
+    },
+    {
+        "company": "Walmart",
+        "city": "Bengaluru",
+        "role": "Software Engineer II",
+        "posted": "1 week ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-walmart",
+        "address": "Building 11, 1st Floor, SEZ-CESSNA Business Park, Outer Ring Road, Bangalore 560087",
+        "lat": 12.94,
+        "lon": 77.69
+    },
+    {
+        "company": "Intel",
+        "city": "Bengaluru",
+        "role": "Embedded Engineer",
+        "posted": "2 weeks ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/embedded-intel",
+        "address": "No. 23/56P, Outer Ring Road, Bellandur, Bangalore 560103",
+        "lat": 12.93,
+        "lon": 77.68
+    },
+    {
+        "company": "Nvidia",
+        "city": "Bengaluru",
+        "role": "System Software Engineer",
+        "posted": "1 week ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/system-nvidia",
+        "address": "MANYATA EMBASSY BUSINESS PARK, OUTER RING ROAD, BANGALORE 560045",
+        "lat": 13.045,
+        "lon": 77.62
+    },
+    {
+        "company": "Qualcomm",
+        "city": "Bengaluru",
+        "role": "Software Engineer",
+        "posted": "2 weeks ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-qualcomm",
+        "address": "PLOT 125-127, EPIP II ND PHASE, WHITEFIELD, BANGALORE 560066",
+        "lat": 12.97,
+        "lon": 77.75
+    },
+    {
+        "company": "Freshworks",
+        "city": "Bengaluru",
+        "role": "Senior Software Engineer",
+        "posted": "18 hours ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-freshworks",
+        "address": "RMZ Infinity, Tower B, 5th Floor, Swami Vivekananda Road, Bangalore 560016",
+        "lat": 12.9934,
+        "lon": 77.6611
+    },
+    {
+        "company": "Swiggy",
+        "city": "Bengaluru",
+        "role": "Backend Engineer",
+        "posted": "1 week ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/backend-swiggy",
+        "address": "Devarabeesanahalli-Bellandur, Bangalore 560103",
+        "lat": 12.935,
+        "lon": 77.685
+    },
+    {
+        "company": "Zomato",
+        "city": "Bengaluru",
+        "role": "Software Engineer",
+        "posted": "2 weeks ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/software-zomato",
+        "address": "5, 20th Main Rd, Koramangala, Bengaluru 560095",
+        "lat": 12.9352,
+        "lon": 77.6245
+    },
+    {
+        "company": "Razorpay",
+        "city": "Bengaluru",
+        "role": "Backend Engineer",
+        "posted": "3 days ago",
+        "linkedin_url": "https://in.linkedin.com/jobs/view/backend-razorpay",
+        "address": "1st Floor, SJR Cyber, 22, Laskar Hosur Road, Adugodi, Bangalore 560030",
+        "lat": 12.945,
+        "lon": 77.61
+    }
+]

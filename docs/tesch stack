@@ -1,0 +1,27 @@
+tech stack :
+
+Frontend
+Framework: Next.js
+Language: TypeScript
+UI Library: Material UI
+Styling: Tailwind CSS (optional for layout tweaks)
+Data Handling:
+React Query (API state)
+Zustand (local state)
+
+Backend
+Framework: Django
+API: Django REST Framework
+Language: Python
+
+Data Layer
+Primary DB: PostgreSQL
+
+
+
+Infra & Deployment
+Containerization: Docker
+Orchestration (later): Kubernetes
+Hosting:
+Frontend: Vercel
+

@@ -1,0 +1,16 @@
+Watching for file changes with StatReloader
+[07/Apr/2026 23:49:53] "GET /api/roles/ HTTP/1.1" 200 75
+[07/Apr/2026 23:49:53] "GET /api/companies/?city=Bengaluru HTTP/1.1" 200 7782
+[07/Apr/2026 23:49:59] "GET /api/companies/?role=Backend&city=Bengaluru HTTP/1.1" 200 1539
+[07/Apr/2026 23:50:39] "GET /api/companies/?role=Backend,Embedded&city=Bengaluru HTTP/1.1" 200 1900
+[07/Apr/2026 23:50:57] "GET /api/companies/?role=Frontend&city=Bengaluru HTTP/1.1" 200 384
+[07/Apr/2026 23:52:02] "GET /api/roles/ HTTP/1.1" 200 75
+[07/Apr/2026 23:52:02] "GET /api/companies/?city=Bengaluru HTTP/1.1" 200 7782
+[07/Apr/2026 23:55:29] "GET /api/roles/ HTTP/1.1" 200 75
+[07/Apr/2026 23:55:29] "GET /api/companies/?city=Bengaluru HTTP/1.1" 200 7782
+[07/Apr/2026 23:55:41] "GET /api/companies/?role=Backend&city=Bengaluru HTTP/1.1" 200 1539
+[07/Apr/2026 23:55:57] "GET /api/roles/ HTTP/1.1" 200 75
+[07/Apr/2026 23:55:57] "GET /api/companies/?city=Bengaluru HTTP/1.1" 200 7782
+[07/Apr/2026 23:55:59] "GET /api/companies/?role=Backend&city=Bengaluru HTTP/1.1" 200 1539
+[07/Apr/2026 23:57:38] "GET /api/roles/ HTTP/1.1" 200 75
+[07/Apr/2026 23:57:38] "GET /api/companies/?city=Bengaluru HTTP/1.1" 200 7782
