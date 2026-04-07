@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { CompaniesResponse, RolesResponse } from '@/types';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://jobs-on-maps-full-stack-2.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE,
