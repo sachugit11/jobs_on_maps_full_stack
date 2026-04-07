@@ -1,0 +1,29 @@
+▲ Next.js 16.2.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 305ms
+
+React does not recognize the `InputProps` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `inputprops` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+ GET / 200 in 3.0s (next.js: 2.8s, application-code: 256ms)
+[browser] React does not recognize the `InputProps` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `inputprops` instead. If you accidentally passed it from a parent component, remove it from the DOM element. 
+ GET / 200 in 56ms (next.js: 3ms, application-code: 53ms)
+[browser] React does not recognize the `InputProps` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `inputprops` instead. If you accidentally passed it from a parent component, remove it from the DOM element. 
+✓ Compiled in 30ms
+✓ Compiled in 36ms
+✓ Compiled in 20ms
+✓ Compiled in 141ms
+ GET / 200 in 83ms (next.js: 49ms, application-code: 34ms)
+ GET / 200 in 207ms (next.js: 3ms, application-code: 204ms)
+ GET / 200 in 34ms (next.js: 5ms, application-code: 29ms)
+✓ Compiled in 36ms
+[browser] React does not recognize the `InputProps` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `inputprops` instead. If you accidentally passed it from a parent component, remove it from the DOM element. 
+ GET / 200 in 40ms (next.js: 4ms, application-code: 36ms)
+[browser] React does not recognize the `InputProps` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `inputprops` instead. If you accidentally passed it from a parent component, remove it from the DOM element. 
+✓ Compiled in 91ms
+ GET / 200 in 31ms (next.js: 4ms, application-code: 27ms)
+ GET / 200 in 264ms (next.js: 36ms, application-code: 228ms)
+✓ Compiled in 14ms
+✓ Compiled in 12ms
+✓ Compiled in 29ms
+ GET / 200 in 38ms (next.js: 5ms, application-code: 33ms)
+[?25h
